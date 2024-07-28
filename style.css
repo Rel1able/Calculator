@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(174, 202, 174);
+
+}
+
+#key {
+    width: 95px;
+    height: 55px;
+    font-size: 30px;
+
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    margin: 5px;
+    background-color: rgb(138, 138, 138);
+}
+
+
+
+.calculator {
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: rgb(80, 79, 79);
+}
+
+.bottom-row {
+    display: flex;
+    width: 100%;
+}
+
+.bottom-row button {
+    flex-grow: 1;
+    margin: 4px;
+
+}
+
+
+
+.display {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 150px;
+    flex: auto;
+    margin: 15px;
+    font-size: 50px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(1, 175, 1);
+}
+
+button {
+    background-color: rgb(43, 43, 43);
+    color: rgb(24, 235, 24);
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: green;
+
+}
+
+h2 {
+    margin-top: auto;
+
+}
+
+.operator,
+.dot {
+    background-color: rgb(15, 66, 9);
+    color: white;
+}
